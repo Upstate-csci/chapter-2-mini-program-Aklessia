@@ -5,7 +5,18 @@ public class Fraction
 	public static void main(String[] args)
 	{
     // declare a scanner object for input
-		Scanner scan = new 
+		int num, den; 
+		double total;
+		Scanner scan = new(System.in);
+		System.out.print("Enter the numerator")
+		num = scan.nextInt();
+		System.out.print("Enter the denominator")
+		den = scan.nextInt();
+		total = num / den;
+		System.out.println("Total" + total);
+		
+		
+		
 
     // prompt for numerator and read in - use print instead of println so the user will input on the same line as the prompt
     
